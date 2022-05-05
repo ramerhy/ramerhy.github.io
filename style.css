@@ -17,13 +17,13 @@
 .left-section {
     grid-column: span 2;
     height: 100%;
-    background-color: #999999;
+    background-color: rgb(35, 35, 235) ; /* #999999; */
 }
 
 .right-section {
     grid-column: span 5;
     height: 100%;
-    background-color: #424a50;
+    background-color: #063b64;
     border-radius: 0px 60px 0px 0px;
 }
 
@@ -43,26 +43,33 @@
 
 .name {
     color: #D6DBDF;
-    font-size: 30px;
+    font-size: 28px;
     letter-spacing: 2px;
     text-transform: uppercase;
+    text-align: center;
+    border-color: black;
+    text-shadow: 0.1em 0.1em 0.2em black;
 }
 
 .profession {
     color: #eeeeee;
-    font-size: 20px;
-    text-transform: uppercase;
+    font-size: 18px;
+    text-transform: capitalize;
     text-align: center;
+    padding-top: 5px;
 }
 
 /* .contact-info { border-bottom: 2px solid #1B2631; } */
+.contact-info {
+    border-bottom: 2px solid #1B2631;
+}
 .left-title {
     color: #eeeeee;
     font-size: 20px;
 }
 
 .contact-info ul {
-    padding-top: 1.5rem;
+    padding-top: 1rem;
 }
 
 .contact-info ul li,
